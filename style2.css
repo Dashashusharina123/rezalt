@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contact-form{
+    padding-bottom: 70px;
+}
+.form-group {
+    margin-bottom: 40px;
+}
+
+.form-group.half-width {
+    display: inline-block;
+    width: 49.7%;
+    vertical-align: top;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #83C812;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.required {
+    color: red;
+}
+.formaa{
+    background-color: #141414;
+}
+.formaa .container .forma .oglav{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.strr4 .container .header{
+    display: flex;
+    background-color: #141414;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.strr4 .container .header .logo img{
+    height: 80px;
+}
+.strr4 .container .header .pochta{
+    padding-top: 35px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.strr4{
+    background-color: #141414;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="str1">
+        <div class="container">
+            <div class="blok1">
+                <div class="header">
+                    <div class="logo"><img src="./foto/лого.png" alt=""></div>
+                    <div class="pochta"><p>info@instrument52.ru</p></div>
+                </div>
+                <div class="osncontent">
+                    <div class="text"><h1>РЕЗАЛТ — РОССИЙСКАЯ ТОРГОВАЯ МАРКА МАШКРЕПЕЖА, СООТВЕТСТВУЮЩЕГО ТРЕБОВАНИЯМ ОТРАСЛЕВОЙ НОРМАТИВНО-ТЕХНИЧЕСКОЙ ДОКУМЕНТАЦИИ</h1></div>
+                    <div class="melktext"><p>ПЕРЕХОДИТЕ В ИНТЕРНЕТ-МАГАЗИН "РЕЗАЛТ" И УБЕДИТЕСЬ САМИ В НАШЕМ АССОРТИМЕНТЕ И УРОВНЕ СЕРВИСА.<br> МЫ ЖДЕМ ВАС!</p></div>
+                    <a href="https://b2b.instrumentgroup.ru/" class="shop-button">интернет-магазин >>></a>
+                </div>
+                <div class="navigation">
+                    <a href="">О КОМПАНИИ</a>
+                    <a href="">ПРОИЗВОДСТВО</a>
+                    <a href="">ДИНАМИКА РАЗВИТИЯ</a>
+                    <a href="">КЛИЕНТЫ И ПАРТНЕРЫ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="str2">
+        <div class="container">
+            <div class="blok2">
+                <div class="left">
+                    <div class="verh"><p>Собственное метизное производство состоит из участка холодной высадки, токарно-фрезерного и слесарно-ремонтного участков и оснащено парком токарных автоматов продольного точения с диаметром обрабатываемых деталей до 25 мм, токарных автоматов с диаметром обработки до 42 мм с максимальной длиной обработки 100 мм.</p></div>
+                    <div class="niz"><p>Объемы производства метизов составляют более 1 млн. ед./ год.</p></div>
+                </div>
+                <div class="right">
+                    <div class="gallery">
+                        <img src="./foto/SLOV3880 1.png" alt="Изображение 1" class="thumbnail" onclick="openModal(this.src)">
+                        <img src="./foto/SLOV3310 1.png" alt="Изображение 2" class="thumbnail" onclick="openModal(this.src)">
+                        <img src="./foto/SLOV3749 1.png" alt="Изображение 3" class="thumbnail" onclick="openModal(this.src)">
+                    </div>
+                    
+                    <div id="modal" class="modal" onclick="closeModal()">
+                        <span id="close" class="close">&times;</span>
+                        <img class="modal-content" id="modal-img">
+                    </div>
+                    
+                    <script src="./1.js"></script>
+
+                    <div class="pic1"></div>
+                    <div class="pic1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="selection-main-two">
+        <div class="container">
+            <div class="overlay"></div>
+            <h1>ПРЕИМУЩЕСТВА ПРОДУКЦИИ РЕЗАЛТ</h1>
+              <div class="line"></div>
+            <ul class="features">
+              <li class="feature-item"><span class="checkmark">✓</span> ШИРОКИЙ АССОРТИМЕНТ КРЕПЕЖА</li>
+              <li class="feature-item"><span class="checkmark">✓</span> СООТВЕТСТВИЕ ПРОДУКЦИИ ОТРАСЛЕВЫМ СТАНДАРТАМ</li>
+              <li class="feature-item"><span class="checkmark">✓</span> ИЗГОТОВЛЕНИЕ МЕТИЗОВ СЛОЖНОЙ ГЕОМЕТРИИ ПО ЧЕРТЕЖАМ ЗАКАЗЧИКА</li>
+              <li class="feature-item"><span class="checkmark">✓</span> ВЫСОКОЕ КАЧЕСТВО МАТЕРИАЛОВ</li>
+              <li class="feature-item"><span class="checkmark">✓</span> ИННОВАЦИОННЫЕ ТЕХНОЛОГИИ</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="str3">
+            <div class="container">
+                <div class="blok3">
+                    <h1>ПРОИЗВОДСТВО</h1>
+                    <div class="line"></div>
+
+                    <div class="gallery">
+                        <div class="image-container" onclick="openModal('modal1')">
+                            <img src="./foto/SLOV4146 1.png" alt="">
+                            <span class="title">Токарно-фрезерный участок</span>
+                        </div>
+                        <div class="image-container" onclick="openModal('modal2')">
+                            <img src="./foto/SLOV3385 1.png" alt="">
+                            <span class="title">Участок холодной высадки</span>
+                        </div>
+                    </div>
+                
+                    <!-- Модальные окна -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('modal1')">&times;</span>
+                            <h2>Более 12 автоматов продольного точения:</h2>
+                            <ul>
+                                <li>токарные автоматы продольного точения с диаметром обработки до 25 мм.</li>
+                                <li>токарные автоматы с диаметром обработки до 42 мм., с максимальной длиной обработки 100 мм.</li>
+                                <li>токарно-фрезерные 5-осевые обрабатывающие центры для изготовления технологической оснастки под заказ клиента и для нужд собственного производства</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal('modal2')">&times;</span>
+                            <h2>30 автоматов холодной высадки:</h2>
+                            <ul>
+                                <li>холодно-высадочные автоматы для изготовления изделий с диаметром стержня до 12 мм.</li>
+                                <li>холодно-высадочные автоматы для изготовления гаек с диаметром резьбы от М3 до М12</li>
+                            </ul>
+                            <h2>Оборудование участка:</h2>
+                            <li>холодно-высадочные автоматы</li>
+                            <li>шлиценарезная машины</li>
+                            <li>резьбонакатная машины</li>
+                            <li>автоматы для высадки гаек</li>
+                        </div>
+                    </div>
+                    <script src="./2.js"></script>                
+                </div>
+            </div>
+        </div>
+
+
+        <div class="strr2">
+            <div class="container">
+                <div class="blokk2">
+                    <div class="ogl"><p>Партнеры</p></div>
+                    <div class="part">
+                        <div class="log"><img src="./foto/Frame 98.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 99.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 100.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 101.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 102.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 103.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 104.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 105.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 106.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 107.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 108.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 109.png" alt=""></div>
+                        <div class="log"><img src="./foto/Frame 110.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="selection-main-one">
+            <div class="container">
+            <h1>МЫ ВСЕГДА НА СВЯЗИ!</h1>
+            <p>если остались вопросы, заполните данные и мы сами с вами свяжемся</p>
+            <a href="./index2.html" class="button">НАПИСАТЬ</a>
+        </div>
+    </div>
+    <div class="footer">
+        <a class="container">
+             <p>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+             <p class="link" onclick="scrollToTop()">НАВЕРХ</p>
+             <script>
+                function scrollToTop() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth' // Плавная прокрутка
+                    });
+                }
+            </script>
+        </div> 
+    </div>
+</body>
+</html>

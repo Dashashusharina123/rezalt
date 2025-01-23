@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.str1{
+    background-image: url(./foto/SLOV4155\ 1.png);
+}
+.str1 .container .blok1 .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.str1 .container .blok1 .header .logo img{
+    height: 80px;
+}
+.str1 .container .blok1 .header .pochta{
+    padding-top: 35px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.str1 .container .blok1 .osncontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    color: white;
+}
+.str1 .container .blok1 .osncontent .text{
+    text-align: center;
+    color: #83C812;
+}
+.str1 .container .blok1 .osncontent .melktext p{
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    line-height: 1.5;
+}
+.shop-button {
+    background-color: #83C812; /* Цвет фона кнопки */
+    color: black; /* Цвет текста кнопки */
+    padding: 10px 15px; /* Отступы кнопки */
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer; /* Курсор в виде руки */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin-top: 30px;
+}
+.shop-button:hover {
+    background-color: white; /* Цвет фона при наведении */
+    color: black;
+}
+.str1 .container .blok1 .navigation{
+    padding-top: 165px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 350px;
+}
+.str1 .container .blok1 .navigation a{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+.str1 .container .blok1 .navigation a:hover{
+    color: #83C812;
+}
+
+.str2 .container .blok2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.str2 .container .blok2 .left{
+    width: 70%;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.str2 .container .blok2 .left .verh{
+    background-color: #82c8128e;
+    width: 765px;
+    border-radius: 30px;
+}
+.str2 .container .blok2 .left .verh p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.str2 .container .blok2 .left .niz{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 640px;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.str2 .container .blok2 .left .niz p{
+    display: flex;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 30%;
+    justify-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.gallery img{
+    width: 290px;
+}
+.thumbnail {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 200px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selection-main-two{
+    background-image: url(./foto/SLOV4374\ 1.png);
+    position: relative; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+.selection-main-two .container {
+    text-align: left;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+}
+.selection-main-two .container .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.selection-main-two .container h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      font-weight: bold;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      display: flex;
+      justify-content: center;
+}
+.selection-main-two .container .line{
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+} 
+.selection-main-two .container .features {
+      list-style: none;
+      padding: 0;
+      position: relative;
+      z-index: 2;
+      padding-left: 20px;
+} 
+.selection-main-two .container .feature-item {
+      margin-bottom: 15px;
+      font-size: 1.2em;
+      display: flex;
+      align-items: center;
+}
+.selection-main-two .container .checkmark {
+      color: #61d64f;
+      margin-right: 10px;
+       font-size: 1.5em;
+}
+.str3 .container .blok3 h1 {
+    font-size: 2em;
+    padding-top: 60px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.str3 .container .blok3 .line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
+} 
+
+.str3 .container .blok3 .gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 120px;
+}
+
+.str3 .container .blok3 .image-container {
+    position: relative;
+    cursor: pointer;
+    display: flex ;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.str3 .container .blok3 .image-container img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.str3 .container .blok3 .title {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.str3 .container .blok3 .modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.str3 .container .blok3 .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+.str3 .container .blok3 .modal-content h2{
+    margin-bottom: 15px;
+}
+.str3 .container .blok3 .modal-content li{
+    padding-bottom: 10px;
+}
+.str3 .container .blok3 .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.str3 .container .blok3 .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.strr2 .container .blokk2 .part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.strr2{
+    background-color: #141414;
+}
+.strr2 .container .blokk2 .part .log img{
+    width: 240px;
+}
+.strr2 .container .blokk2 .ogl p{
+    font-size: 24px;
+    color: #C0C4C9;
+    padding-top: 70px;
+}
+
+.selection-main-one .container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.selection-main-one .container p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 40px;
+}
+.selection-main-one{
+  text-align: center;
+}
+
+.selection-main-one .container .button {
+    background-color: #83C812;
+    color: rgb(56, 54, 54);
+    padding: 12px 55px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+.selection-main-one .container .button:hover {
+    background-color: black;
+    color: white;
+}
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.footer .container p{
+    cursor: pointer;
+}
